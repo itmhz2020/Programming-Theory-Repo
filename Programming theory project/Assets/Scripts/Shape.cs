@@ -2,41 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum ShapesColor
+{
+    Blue,
+    Red,
+    Orange,
+    Green,
+    Yellow,
+    Purple
+}
+
 public class Shape : MonoBehaviour
 {
-    private Color m_ShapeColor;
-    public Color ShapeColor
-    {
-        set
-        {
-            m_ShapeColor = value;
-        }
-        get
-        {
-            return m_ShapeColor;
-        }
-    }
-
-    private string m_ShapeName;
-    public string ShapeName
-    {
-        set
-        {
-            if (value.Length < 25)
-            {
-                m_ShapeName = value;
-            }
-        }
-
-        get
-        {
-            return m_ShapeName;
-        }
-    }
+    public ShapesColor m_Color = ShapesColor.Blue;
+    public string m_ShapeName;
 
     public virtual void DisplayInfo() 
     {
-        Debug.Log("Shape Name: "+ ShapeName +" Shape Color: "+ ShapeColor);
+        Debug.Log("Shape Name: "+ m_Color +" Shape Color: "+ m_ShapeName);
     }
 
     public virtual void DisplayInfo(Color _Color)

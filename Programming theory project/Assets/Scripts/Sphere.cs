@@ -2,35 +2,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class Sphere : Shape
 {
-    private Color m_SphereColor;
-    public Color SphereColor
+    public ShapesColor SphereColor
     {
         set
         {
-            m_SphereColor = value;
+            m_Color = value;
         }
         get
         {
-            return m_SphereColor;
+            return m_Color;
         }
     }
 
-    private string m_SphereName;
     public string SphereName
     {
         set
         {
             if (value.Length < 25)
             {
-                m_SphereName = value;
+                m_ShapeName = value;
             }
         }
 
         get
         {
-            return m_SphereName;
+            return m_ShapeName;
         }
     }
 

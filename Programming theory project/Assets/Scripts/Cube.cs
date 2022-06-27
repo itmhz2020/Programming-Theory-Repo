@@ -4,33 +4,31 @@ using UnityEngine;
 
 public class Cube : Shape
 {
-    private Color m_CubeColor;
-    public Color CubeColor
+    public ShapesColor CubeColor
     {
         set
         {
-            m_CubeColor = value;
+            m_Color = value;
         }
         get
         {
-            return m_CubeColor;
+            return m_Color;
         }
     }
 
-    private string m_CubeName;
     public string CubeName
     {
         set
         {
             if (value.Length < 25)
             {
-                m_CubeName = value;
+                m_ShapeName = value;
             }
         }
 
         get
         {
-            return m_CubeName;
+            return m_ShapeName;
         }
     }
 
