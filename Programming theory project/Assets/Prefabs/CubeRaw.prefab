@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bdf9de084e64001468cfa01de11d9a06, type: 2}
+  - {fileID: 2100000, guid: 0b2e78417deba624385b579f55e087a6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5bb0ead9dd315743ae0ba3d8b2d2998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color: 2
+  m_Color: 0
   m_ShapeName: cube0
 --- !u!1 &2703740121580856272
 GameObject:
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5bb0ead9dd315743ae0ba3d8b2d2998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color: 3
+  m_Color: 1
   m_ShapeName: cube1
 --- !u!1 &2703740121661662568
 GameObject:
@@ -281,7 +281,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0b2e78417deba624385b579f55e087a6, type: 2}
+  - {fileID: 2100000, guid: 3716b50f10c972e449d13882392b3e59, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -328,7 +328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5bb0ead9dd315743ae0ba3d8b2d2998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color: 0
+  m_Color: 2
   m_ShapeName: cube2
 --- !u!1 &2703740121865622082
 GameObject:

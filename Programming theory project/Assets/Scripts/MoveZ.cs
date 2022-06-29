@@ -9,6 +9,9 @@ public class MoveZ : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.back * m_Speed * Time.deltaTime);
+        if (!GameManager.s_Instance.m_IsGameOver)
+        {
+            transform.Translate(Vector3.back * m_Speed * Time.deltaTime);
+        }
     }
 }

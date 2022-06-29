@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 271c94fe936562c42a238fb544626f3d, type: 2}
+  - {fileID: 2100000, guid: e9cdfd61549603e4ebef7b43bb865520, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c7504a33bc7c57438d2bb0ef748b230, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color: 4
+  m_Color: 1
   m_ShapeName: Sphere1
 --- !u!1 &4224841394517530986
 GameObject:
@@ -171,7 +171,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3716b50f10c972e449d13882392b3e59, type: 2}
+  - {fileID: 2100000, guid: 0b2e78417deba624385b579f55e087a6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c7504a33bc7c57438d2bb0ef748b230, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color: 1
+  m_Color: 0
   m_ShapeName: Sphere0
 --- !u!1 &4224841395023900274
 GameObject:
@@ -281,7 +281,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 19521b05db727ab4184b6ab77b86934a, type: 2}
+  - {fileID: 2100000, guid: 3716b50f10c972e449d13882392b3e59, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -328,7 +328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c7504a33bc7c57438d2bb0ef748b230, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Color: 5
+  m_Color: 2
   m_ShapeName: Sphere2
 --- !u!1 &4224841395696223442
 GameObject:
