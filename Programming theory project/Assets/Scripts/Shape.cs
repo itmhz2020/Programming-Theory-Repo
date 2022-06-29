@@ -21,6 +21,7 @@ public class Shape : MonoBehaviour
         Debug.Log("Shape Name: " + m_Color + " Shape Color: " + m_ShapeName);
     }
 
+    // POLYMORPHISM
     public virtual void DisplayInfo(Color _Color)
     {
         Debug.Log("Shape Color: " + _Color);

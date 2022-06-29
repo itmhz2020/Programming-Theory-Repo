@@ -15,6 +15,7 @@ public class SpawnManager : MonoBehaviour
         StartCoroutine(SpawnRaw());
     }
 
+    // ABSTRACTION
     IEnumerator SpawnRaw()
     {
         while (!GameManager.s_Instance.m_IsGameOver)

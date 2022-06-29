@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Cube : Shape
 {
+    //ENCAPSULATION
     public ShapesColor CubeColor
     {
         set

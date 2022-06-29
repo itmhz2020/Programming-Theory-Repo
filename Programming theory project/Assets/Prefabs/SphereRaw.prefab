@@ -110,6 +110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: 1
   m_ShapeName: Sphere1
+  m_ShapeValue: 2
 --- !u!1 &4224841394517530986
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,6 +221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: 0
   m_ShapeName: Sphere0
+  m_ShapeValue: 1
 --- !u!1 &4224841395023900274
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,6 +332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: 2
   m_ShapeName: Sphere2
+  m_ShapeValue: 3
 --- !u!1 &4224841395696223442
 GameObject:
   m_ObjectHideFlags: 0

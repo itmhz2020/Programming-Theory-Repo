@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class Sphere : Shape
 {
+    // INHERITANCE
     public ShapesColor SphereColor
     {
         set
